@@ -12,7 +12,7 @@ def format_response(weather):
 
         final_str = "City: %s \nConditions: %s \nTemperature (°C): %s" % (name, desc.capitalize(), temp)
     except:
-        final_str = "There was a problem retrieving that information"
+        final_str = "There was a problem\n retrieving that information..."
 
     return final_str
 
